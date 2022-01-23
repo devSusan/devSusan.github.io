@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8E'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+</head>
+<body>
+    <div class="timeArea">
+        <h1 class="js-clock"></h1>
+    </div>
+    <div class="loginArea">
+        <form id="loginForm">
+            <input type="text" id="inputMyName" required placeholder="Who are you?"/>
+            <button>Login</button>
+        </form>
+        <h2 id="loginOK" class="hidden"></h2>
+    </div>
+    <div class="todoArea">
+        <form id="todoForm">
+            <input type="text" id="inputTodo" required placeholder="체크리스트를 입력해 보세요.">
+            <button>OK</button>
+        </form>
+        <ul id="todoList"></ul>
+    </div>
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+</body>
+<script src='js/main.js'></script>
+<script src='js/todo.js'></script>
+</html>
