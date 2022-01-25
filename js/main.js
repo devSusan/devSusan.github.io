@@ -36,9 +36,11 @@ setInterval(getTime, 1000);
 handleLoginCheck();
 loginForm.addEventListener("submit", handleLogin);
 //배경이미지 
-const images = ["1.jpg", "2.jpg", "3.jpg"];
+const images = ["1.jpg", "2.jpg","4.jpg", "5.jpg", "8.jpg", "9.jpg","10.jpg"];
 const chosenImage = images[Math.floor(Math.random() * images.length)];
 document.body.style.backgroundImage = `url(img/${chosenImage})`;  
+
+
 //날씨와 위치
 const weather = document.querySelector("#weather span:first-child");
 const city = document.querySelector("#weather span:last-child");
